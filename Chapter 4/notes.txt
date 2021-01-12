@@ -1,0 +1,19 @@
+Static typed: data type is determined at compile time
+Dynamic typed: data type is determined at run time
+Weak typed: implicit conversion between data types is allowed
+Strong typed: implicit conversion between data types is not allowed
+Primitive data types (string, number, boolean) are all objects in Javascript, but not in Python
+
+myNumber = 123e5 // myNumber is 12,300,000
+
+let x = 0.2 + 0.1 // x = 0.30000000000000004 
+x = parseFloat(x.toPrecision(1)) // x = 0.3 
+
+"hello world".substr(3,5) // returns "lo wo", because substr(start, length)
+"hello world".substring(3,5) //  returns "lo", because substring(start, end)
+
+const name = "Bob" 
+let age = 50 
+console.log("My name is " + name + " and I am " + age + " years old.") 
+console.log(`My name is ${name} and I am ${age} years old.`) // template literal
+

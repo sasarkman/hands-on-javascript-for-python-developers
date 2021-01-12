@@ -1,0 +1,11 @@
+Camel-case is preferred in Javascript while Python prefers snake-casing (underscores)
+"var" is the deprecated by "let"
+Python does not suppor the following data types while Javascript does: undefined, object, and symbol
+The command "typeof()" returns the type of data a variable is, in string form
+The equivalence operator "==" checks for the same value while the operator "===" checks for same value and data type
+A false cognate is when two syntaxes look alike but do different things. An example of this is Python and Javascript's "for...in" loop.
+DRY = Don't Repeat Yourself
+Function declarations and function expressions differ in that a function declaration can be used anywhere in your program because it's hoisted to the top. As JavaScript is interpreted top-down; this is a major exception to that paradigm. So, conversely, using an expression must occur after the expression is written.
+Semi-colons in Javascript are optional and are a style choice that differs from company to company, project to project, and library to library.
+"Linting" refers to the process of running your code through predefined rules to ensure that not only is it syntactically correct, but it also adheres to proper style rules. Otherwise known as a "style guide".
+

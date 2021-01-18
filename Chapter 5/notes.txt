@@ -1,0 +1,1 @@
+Another way of accessing "this.name" is "this['name']"

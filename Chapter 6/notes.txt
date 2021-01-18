@@ -1,0 +1,3 @@
+The way in which we access the DOM is the "document" object.
+. selects class
+# selects ID
